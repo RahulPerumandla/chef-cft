@@ -23,8 +23,7 @@ package "php-mysql" do
 end
 
 
-
-package "mysql56" do
+package "mariadb" do
 	action :install
 end
 
