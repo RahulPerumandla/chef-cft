@@ -24,7 +24,7 @@ end
 
 
 
-package "mysql" do
+package "mysql56" do
 	action :install
 end
 
