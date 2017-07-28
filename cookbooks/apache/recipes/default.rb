@@ -6,11 +6,11 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-package "httpd" do
+package "apache2" do
 	action  :install
 end
 
-service "httpd" do
+service "apache2" do
 	action [:enable, :start]
 end
 
@@ -23,7 +23,7 @@ package "php-mysql" do
 end
 
 
-package "mysql" do
+package "mysql-server" do
 	action :install
 end
  
