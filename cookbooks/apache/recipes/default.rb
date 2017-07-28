@@ -14,16 +14,16 @@ service "httpd" do
 	action [:enable, :start]
 end
 
-package "php56" do
+package "php" do
 	action :install
 end
 
-package "php56-mysqlnd" do
+package "php-mysql" do
 	action :install
 end
 
 
-package "mysql56-server" do
+package "mysql" do
 	action :install
 end
  
